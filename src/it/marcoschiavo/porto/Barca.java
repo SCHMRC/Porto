@@ -58,6 +58,14 @@ public class Barca {
 	public void setTipo(Tipologia tipo) {
 		this.tipo = tipo;
 	}
+
+	@Override
+	public String toString() {
+		return "Barca [nome=" + nome + ", naz=" + naz + ", lunghezza=" + lunghezza + ", stazza=" + stazza + ", tipo="
+				+ tipo + "]";
+	}
+	
+	
 	
 
 }
