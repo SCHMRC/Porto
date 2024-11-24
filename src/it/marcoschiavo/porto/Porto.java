@@ -62,7 +62,7 @@ public class Porto {
 				}
 			}
 			if(indice > 0) {
-				this.posti[indice-1] = new Posto(barca);
+				this.posti[indice] = new Posto(barca);
 				index = indice;
 			}else {
 				this.posti[index-1] = new Posto(barca);

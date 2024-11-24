@@ -10,7 +10,7 @@ public class Posto {
 	public Posto() {}
 	
 	public Posto(Barca barca) {
-		this.barca = barca;
+		this.barca = new Barca(barca.getNome(), barca.getNaz(), barca.getLunghezza(), barca.getStazza(), barca.getTipo());
 		setPrezzoPostoBarca(barca);
 	}
 	
