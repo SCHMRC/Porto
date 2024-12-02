@@ -4,7 +4,6 @@ import it.marcoschiavo.porto.Barca.Tipologia;
 
 public class Posto {
 	private Barca barca;
-	private int numero;
 	private double prezzo;
 
 	public Posto() {}
